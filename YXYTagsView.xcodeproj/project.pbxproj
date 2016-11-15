@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1395ACE21DCB41DC007E497E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395ACE11DCB41DC007E497E /* main.m */; };
+		1395ACE51DCB41DC007E497E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395ACE41DCB41DC007E497E /* AppDelegate.m */; };
+		1395ACE81DCB41DC007E497E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395ACE71DCB41DC007E497E /* ViewController.m */; };
+		1395ACEB1DCB41DC007E497E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395ACE91DCB41DC007E497E /* Main.storyboard */; };
+		1395ACED1DCB41DC007E497E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1395ACEC1DCB41DC007E497E /* Assets.xcassets */; };
+		1395ACF01DCB41DC007E497E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1395ACEE1DCB41DC007E497E /* LaunchScreen.storyboard */; };
+		1395ACFB1DCB41DD007E497E /* YXYTagsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395ACFA1DCB41DD007E497E /* YXYTagsViewTests.m */; };
+		1395AD061DCB41DD007E497E /* YXYTagsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395AD051DCB41DD007E497E /* YXYTagsViewUITests.m */; };
+		1395AD161DCB4220007E497E /* YXYTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395AD151DCB4220007E497E /* YXYTagsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1395ACF71DCB41DD007E497E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1395ACD51DCB41DC007E497E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1395ACDC1DCB41DC007E497E;
+			remoteInfo = YXYTagsView;
+		};
+		1395AD021DCB41DD007E497E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1395ACD51DCB41DC007E497E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1395ACDC1DCB41DC007E497E;
+			remoteInfo = YXYTagsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1395ACDD1DCB41DC007E497E /* YXYTagsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYTagsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1395ACE11DCB41DC007E497E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1395ACE31DCB41DC007E497E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1395ACE41DCB41DC007E497E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1395ACE61DCB41DC007E497E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1395ACE71DCB41DC007E497E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1395ACEA1DCB41DC007E497E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1395ACEC1DCB41DC007E497E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1395ACEF1DCB41DC007E497E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1395ACF11DCB41DC007E497E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1395ACF61DCB41DD007E497E /* YXYTagsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYTagsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1395ACFA1DCB41DD007E497E /* YXYTagsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYTagsViewTests.m; sourceTree = "<group>"; };
+		1395ACFC1DCB41DD007E497E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1395AD011DCB41DD007E497E /* YXYTagsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYTagsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1395AD051DCB41DD007E497E /* YXYTagsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYTagsViewUITests.m; sourceTree = "<group>"; };
+		1395AD071DCB41DD007E497E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1395AD141DCB4220007E497E /* YXYTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYTagsView.h; sourceTree = "<group>"; };
+		1395AD151DCB4220007E497E /* YXYTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYTagsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1395ACDA1DCB41DC007E497E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACF31DCB41DD007E497E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACFE1DCB41DD007E497E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1395ACD41DCB41DC007E497E = {
+			isa = PBXGroup;
+			children = (
+				1395ACDF1DCB41DC007E497E /* YXYTagsView */,
+				1395ACF91DCB41DD007E497E /* YXYTagsViewTests */,
+				1395AD041DCB41DD007E497E /* YXYTagsViewUITests */,
+				1395ACDE1DCB41DC007E497E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1395ACDE1DCB41DC007E497E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1395ACDD1DCB41DC007E497E /* YXYTagsView.app */,
+				1395ACF61DCB41DD007E497E /* YXYTagsViewTests.xctest */,
+				1395AD011DCB41DD007E497E /* YXYTagsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1395ACDF1DCB41DC007E497E /* YXYTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				1395AD131DCB4220007E497E /* Source */,
+				1395ACE31DCB41DC007E497E /* AppDelegate.h */,
+				1395ACE41DCB41DC007E497E /* AppDelegate.m */,
+				1395ACE61DCB41DC007E497E /* ViewController.h */,
+				1395ACE71DCB41DC007E497E /* ViewController.m */,
+				1395ACE91DCB41DC007E497E /* Main.storyboard */,
+				1395ACEC1DCB41DC007E497E /* Assets.xcassets */,
+				1395ACEE1DCB41DC007E497E /* LaunchScreen.storyboard */,
+				1395ACF11DCB41DC007E497E /* Info.plist */,
+				1395ACE01DCB41DC007E497E /* Supporting Files */,
+			);
+			path = YXYTagsView;
+			sourceTree = "<group>";
+		};
+		1395ACE01DCB41DC007E497E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1395ACE11DCB41DC007E497E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1395ACF91DCB41DD007E497E /* YXYTagsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1395ACFA1DCB41DD007E497E /* YXYTagsViewTests.m */,
+				1395ACFC1DCB41DD007E497E /* Info.plist */,
+			);
+			path = YXYTagsViewTests;
+			sourceTree = "<group>";
+		};
+		1395AD041DCB41DD007E497E /* YXYTagsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1395AD051DCB41DD007E497E /* YXYTagsViewUITests.m */,
+				1395AD071DCB41DD007E497E /* Info.plist */,
+			);
+			path = YXYTagsViewUITests;
+			sourceTree = "<group>";
+		};
+		1395AD131DCB4220007E497E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1395AD141DCB4220007E497E /* YXYTagsView.h */,
+				1395AD151DCB4220007E497E /* YXYTagsView.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1395ACDC1DCB41DC007E497E /* YXYTagsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1395AD0A1DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsView" */;
+			buildPhases = (
+				1395ACD91DCB41DC007E497E /* Sources */,
+				1395ACDA1DCB41DC007E497E /* Frameworks */,
+				1395ACDB1DCB41DC007E497E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXYTagsView;
+			productName = YXYTagsView;
+			productReference = 1395ACDD1DCB41DC007E497E /* YXYTagsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1395ACF51DCB41DD007E497E /* YXYTagsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1395AD0D1DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsViewTests" */;
+			buildPhases = (
+				1395ACF21DCB41DD007E497E /* Sources */,
+				1395ACF31DCB41DD007E497E /* Frameworks */,
+				1395ACF41DCB41DD007E497E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1395ACF81DCB41DD007E497E /* PBXTargetDependency */,
+			);
+			name = YXYTagsViewTests;
+			productName = YXYTagsViewTests;
+			productReference = 1395ACF61DCB41DD007E497E /* YXYTagsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1395AD001DCB41DD007E497E /* YXYTagsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1395AD101DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsViewUITests" */;
+			buildPhases = (
+				1395ACFD1DCB41DD007E497E /* Sources */,
+				1395ACFE1DCB41DD007E497E /* Frameworks */,
+				1395ACFF1DCB41DD007E497E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1395AD031DCB41DD007E497E /* PBXTargetDependency */,
+			);
+			name = YXYTagsViewUITests;
+			productName = YXYTagsViewUITests;
+			productReference = 1395AD011DCB41DD007E497E /* YXYTagsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1395ACD51DCB41DC007E497E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = EAH;
+				TargetAttributes = {
+					1395ACDC1DCB41DC007E497E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 38P99ZT46A;
+						ProvisioningStyle = Automatic;
+					};
+					1395ACF51DCB41DD007E497E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1395ACDC1DCB41DC007E497E;
+					};
+					1395AD001DCB41DD007E497E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1395ACDC1DCB41DC007E497E;
+					};
+				};
+			};
+			buildConfigurationList = 1395ACD81DCB41DC007E497E /* Build configuration list for PBXProject "YXYTagsView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1395ACD41DCB41DC007E497E;
+			productRefGroup = 1395ACDE1DCB41DC007E497E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1395ACDC1DCB41DC007E497E /* YXYTagsView */,
+				1395ACF51DCB41DD007E497E /* YXYTagsViewTests */,
+				1395AD001DCB41DD007E497E /* YXYTagsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1395ACDB1DCB41DC007E497E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395ACF01DCB41DC007E497E /* LaunchScreen.storyboard in Resources */,
+				1395ACED1DCB41DC007E497E /* Assets.xcassets in Resources */,
+				1395ACEB1DCB41DC007E497E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACF41DCB41DD007E497E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACFF1DCB41DD007E497E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1395ACD91DCB41DC007E497E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395AD161DCB4220007E497E /* YXYTagsView.m in Sources */,
+				1395ACE81DCB41DC007E497E /* ViewController.m in Sources */,
+				1395ACE51DCB41DC007E497E /* AppDelegate.m in Sources */,
+				1395ACE21DCB41DC007E497E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACF21DCB41DD007E497E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395ACFB1DCB41DD007E497E /* YXYTagsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395ACFD1DCB41DD007E497E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1395AD061DCB41DD007E497E /* YXYTagsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1395ACF81DCB41DD007E497E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1395ACDC1DCB41DC007E497E /* YXYTagsView */;
+			targetProxy = 1395ACF71DCB41DD007E497E /* PBXContainerItemProxy */;
+		};
+		1395AD031DCB41DD007E497E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1395ACDC1DCB41DC007E497E /* YXYTagsView */;
+			targetProxy = 1395AD021DCB41DD007E497E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1395ACE91DCB41DC007E497E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1395ACEA1DCB41DC007E497E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1395ACEE1DCB41DC007E497E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1395ACEF1DCB41DC007E497E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1395AD081DCB41DD007E497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1395AD091DCB41DD007E497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1395AD0B1DCB41DD007E497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38P99ZT46A;
+				INFOPLIST_FILE = YXYTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1395AD0C1DCB41DD007E497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38P99ZT46A;
+				INFOPLIST_FILE = YXYTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1395AD0E1DCB41DD007E497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXYTagsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXYTagsView.app/YXYTagsView";
+			};
+			name = Debug;
+		};
+		1395AD0F1DCB41DD007E497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXYTagsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXYTagsView.app/YXYTagsView";
+			};
+			name = Release;
+		};
+		1395AD111DCB41DD007E497E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXYTagsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXYTagsView;
+			};
+			name = Debug;
+		};
+		1395AD121DCB41DD007E497E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXYTagsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eah.YXYTagsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXYTagsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1395ACD81DCB41DC007E497E /* Build configuration list for PBXProject "YXYTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1395AD081DCB41DD007E497E /* Debug */,
+				1395AD091DCB41DD007E497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1395AD0A1DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1395AD0B1DCB41DD007E497E /* Debug */,
+				1395AD0C1DCB41DD007E497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1395AD0D1DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1395AD0E1DCB41DD007E497E /* Debug */,
+				1395AD0F1DCB41DD007E497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1395AD101DCB41DD007E497E /* Build configuration list for PBXNativeTarget "YXYTagsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1395AD111DCB41DD007E497E /* Debug */,
+				1395AD121DCB41DD007E497E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1395ACD51DCB41DC007E497E /* Project object */;
+}
